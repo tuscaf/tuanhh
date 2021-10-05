@@ -1,0 +1,801 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0;
+	padding: 0;
+}
+
+.main
+{
+	width: 100%;
+	height: auto;
+	background-color: antiquewhite;
+	
+}
+
+.nen
+{
+	width: 100%;
+	height: 800px;
+	background : url("../images/http-_hypebeast.com_image_2017_04_vault-by-vans-neighborhood-collaboration-1.jpg");
+	background-size: cover;
+	
+}
+
+.khung
+{
+	width: 100%;
+	height: 100px;
+	margin: 0 40px 0 50px;
+	padding: 0 70px 0 90px ;
+	box-sizing: border-box;
+	
+	
+}
+
+.logo
+{
+	width: 20%;
+	height: 90px;
+	background : url("../images/th (1).jpg" );
+	background-size:cover;
+	float: left;
+	
+	
+}
+
+.menu
+{
+	width: 80%;
+	height: 100px;
+	font-family: font1;
+	float: right;
+	
+}
+
+.menu ul
+{
+	list-style: none;
+	
+}
+
+.menu ul li
+{
+	float: left;
+	padding: 20px 90px;
+	box-sizing: border-box;
+	
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	color: black;
+	
+}
+
+@font-face
+{
+	font-family: font1;
+	src: url("../font/Roboto-Bold.ttf");
+	
+}
+
+.noidung
+{
+	width: 100%;
+	height: 500px;
+	
+	font-family: font2;
+	color: aliceblue;
+	padding: 150px 60px 50px 300px;
+	box-sizing: border-box;
+	
+}
+
+@font-face
+{
+	font-family: font2;
+	src:url("../font/Roboto-Bold.ttf");
+	
+}
+
+button
+{
+	width: 150px;
+	height: 40px;
+	background-color: black;
+	border: none;
+	font-family: font2;
+	color: white; 
+	
+}
+
+button a
+{
+	text-decoration: none;
+	color: white;
+	
+}
+
+.text
+{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 35px 40% ;
+	font-family: font3;
+	
+}
+
+@font-face
+{
+	font-family: font3;
+	src: url("../font/Roboto-Bold.ttf");
+	
+}
+
+.khung2
+{
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	
+}
+
+.menu ul li:hover
+{
+	background-color: none;
+	
+}
+
+.giay1
+{
+	width: 200px;
+	height: 350px;
+	background-color: aqua;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px ;
+	float: left;
+	margin: 90px 0 0 90px;
+    
+	
+	box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	
+}
+
+.giay11
+{
+	width: 200px;
+	height: 200px;
+	background: url("../images/tải xuống (2).png");
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px ;
+	
+}
+
+@font-face
+{
+	font-family: font4;
+	src: url("../font/Roboto-Medium.ttf");
+	
+}
+
+.giay12
+{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	font-family: font4;
+	box-sizing: border-box;
+	text-align-last: center;
+	padding: 10px 0 0 0 ;
+	
+}
+
+
+
+.giay2
+{
+	width: 200px;
+	height: 350px;
+	background-color: aqua;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px ;
+	float: left;
+	margin: 90px 0 0 90px;
+    
+	
+	box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	
+}
+
+
+
+.giay21
+{
+	width: 200px;
+	height: 200px;
+	background: url("../images/tải xuống (1).png");
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px ;
+	
+}
+
+.giay22
+{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	font-family: font4;
+	box-sizing: border-box;
+	text-align-last: center;
+	padding: 10px 0 0 0 ;
+	
+	
+}
+
+
+
+
+
+.giay3
+{
+	width: 200px;
+	height: 350px;
+	background-color: aqua;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px ;
+	float: left;
+	margin: 90px 0 0 90px;
+   
+	
+	box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	
+}
+
+
+
+
+.giay31
+{
+	width: 200px;
+	height: 200px;
+	background: url("../images/tải xuống (3).png");
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px ;
+	
+}
+
+.giay32
+{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	font-family: font4;
+	box-sizing: border-box;
+	text-align-last: center;
+	padding: 10px 0 0 0 ;
+	
+}
+
+
+
+.giay4
+{
+	width: 200px;
+	height: 350px;
+	background-color: aqua;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px ;
+	float: left;
+	margin: 90px 0 0 90px;
+   
+	
+	box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	
+}
+
+
+
+
+
+.giay41
+{
+	width: 200px;
+	height: 200px;
+	background: url("../images/tải xuống (4).png");
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px ;
+	
+}
+
+.giay42
+{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	font-family: font4;
+	box-sizing: border-box;
+	text-align-last: center;
+	padding: 10px 0 0 0 ;
+	
+}
+
+.giay5
+{
+	width: 200px;
+	height: 350px;
+	background-color: aqua;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px ;
+	float: left;
+	margin: 90px 0 0 90px;
+   
+	
+	box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	
+}
+
+
+.giay51
+{
+	width: 200px;
+	height: 200px;
+	background: url("../images/tải xuống (5).png");
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px ;
+	
+}
+
+.giay52
+{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	font-family: font4;
+	box-sizing: border-box;
+	text-align-last: center;
+	padding: 10px 0 0 0 ;
+	
+}
+
+
+
+.khung3
+{
+	width: 100%;
+	height: 800px;
+	background-color: white;
+	
+}
+
+.images1
+{
+	width: 750px;
+	height: 600px;
+	background-color: antiquewhite;
+	background-size: cover;
+	box-sizing: border-box;
+	
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 70px 0 0 50px;
+	box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75); 
+	
+}
+
+.mini1
+{
+	width: 350px;
+	height: 600px;
+	background-color: white;
+	float: left;
+	font-family: font3;
+	padding: 120px 0 0 20px ;
+	box-sizing: border-box;
+	
+	
+}
+
+.mini2
+{
+	width: 400px;
+	height: 600px;
+	background-color: blueviolet;
+	float: right;
+}
+
+.minini21
+{
+	width: 400px;
+	height: 400px;
+	background:url("../images/tải xuống (6).png");
+	background-size: cover;
+	box-sizing: border-box;
+	
+}
+
+.minini22
+{
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	font-family: font2;
+	padding: 40px 0px 0px 0px;
+	box-sizing: border-box;
+	text-align-last: center;
+	
+}
+
+.images2
+{
+	width: 600px;
+	height: 600px;
+	background-color: white;
+	background-size: cover;
+	box-sizing: border-box;
+	
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 70px 0 0 50px;
+	box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(230,230,230,0.75);
+	
+}
+
+.nho1
+{
+	width: 250px;
+	height: 600px;
+	background-color: white;
+	float: left;
+	font-family: font3;
+	box-sizing: border-box;
+	padding: 120px 0 0 20px;
+	
+}
+
+.nho2
+{
+	width: 350px;
+	height: 500px;
+	background-color: white;
+	float: right;
+	margin: 80px 0 10px 0;
+	box-sizing: border-box;
+	
+}
+
+.nho21
+{
+	width: 350px;
+	height: 350px;
+	background: url("../images/istockphoto-157503983-612x612.jpg");
+	background-size: cover;
+	
+}
+
+.khung4
+{
+	width: 100%;
+	height: 900px;
+	background-color: white;
+	
+}
+
+.chudoden
+{
+	width: 100%;
+	height: 140px;
+	background-color: darkviolet;
+	
+}
+
+
+
+.chudo
+{
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	font-family: font5;
+	box-sizing: border-box;
+	padding: 50px 0 0 0;
+	text-align-last: center;
+	
+	
+}
+
+.chudo a
+{
+	text-decoration: none;
+	color: red;
+	
+}
+
+
+
+ @font-face
+{
+	font-family: font5;
+	src: url("../font/Roboto-Regular.ttf");
+	
+}
+
+.chutiep
+{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	font-family: font3;
+	text-align-last: center;
+	box-sizing: border-box;
+	padding: 1px 0 0 0 ;
+	
+	
+}
+
+.infor1
+{
+	width: 400px;
+	height: 600px;
+	background-color:darkorange;
+	float: left;
+	margin: 65px 0 0 80px;
+	
+}
+
+.in11
+{
+	width: 400px;
+	height: 310px;
+	background:url("../images/fa21_ArthurLongo_snowbootshoe.webp");
+	background-size: cover;
+	
+}
+
+.in12
+{
+	width: 400px;
+	height: 290px;
+	background-color: white;
+	font-family: font5;
+	box-sizing: border-box;
+	padding: 10px 0 0 0 ;
+	
+}
+
+
+
+
+.infor2
+{
+	width: 400px;
+	height: 600px;
+	background-color:darkorange;
+	float: left;
+	margin: 65px 0 0 80px;
+	
+}
+
+
+.in21
+{
+	width: 400px;
+	height: 310px;
+	background: url("../images/fa21_vault_xnigel_photo_group_three.webp");
+	background-size: cover;
+	
+}
+
+.in22
+{
+	width: 400px;
+	height: 290px;
+	background-color: white;
+	font-family: font5;
+	box-sizing: border-box;
+	padding: 10px 0 0 0 ;
+	
+	
+}
+
+
+
+
+.infor3
+{
+	width: 400px;
+	height: 600px;
+	background-color:darkorange;
+	float: left;
+	margin: 65px 0 0 80px;
+	
+}
+
+
+
+.in31
+{
+	width: 400px;
+	height: 310px;
+	background: url("../images/ch66-logo.webp");
+	background-size: cover;
+	
+}
+
+.in32
+{
+	width: 400px;
+	height: 290px;
+	background-color: white;
+	font-family: font5;
+	box-sizing: border-box;
+	padding: 10px 0 0 0 ;
+	
+	
+}
+
+.KHUNG6
+{
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	
+	
+	
+}
+
+
+.ket1
+{
+	width: 280px;
+	height: 400px;
+	
+	float: left;
+	margin: 65px 0 0 80px;
+	font-family: font5;
+	color: white;
+	
+}
+
+
+.ket2
+{
+	width: 280px;
+	height: 400px;
+
+	float: left;
+	margin: 65px 0 0 80px;
+		font-family: font5;
+	color: white;
+	
+}
+
+
+.ket3
+{
+	width: 280px;
+	height: 400px;
+	
+	float: left;
+	margin: 65px 0 0 80px;
+		font-family: font5;
+	color: white;
+	
+}
+
+.xiu
+{
+	width: 280px;
+	height: 40px;
+	
+	font-family: font5;
+	color: white;
+	
+	
+}
+
+.ciu1
+{
+	width: 50px;
+	height: 50px;
+	background:url("../images/th-(2).jpg");
+	float: left;
+	background-size: cover;
+	margin: 15px 0 0 0px;
+	
+	
+}
+
+.ciu2
+{
+	width: 50px;
+	height: 50px;
+	background: url("../images/th-(3).jpg");
+	float: left;
+	background-size: cover;
+	margin: 15px 0 0 10px;
+	
+	
+}
+
+.ciu3
+{
+	width: 50px;
+	height: 50px;
+	background: url("../images/th-(4).jpg");
+	float: left;
+	background-size: cover;
+	margin: 15px 0 0 10px;
+	
+	
+}
+
+.ciu4
+{
+	width: 50px;
+	height: 50px;
+	background: url("../images/th-(6).jpg");
+	float: left;
+	background-size: cover;
+	margin: 15px 0 0 10px;
+	
+	
+}
+
+
+
+.ket4
+{
+	width: 280px;
+	height: 400px;
+	
+	float: left;
+	margin: 65px 0 0 80px;
+		font-family: font5;
+	color: white;
+	
+}
+
+.ket2 a
+{
+	text-decoration: none;
+	color: lightblue;
+}
+
+.ket1 a
+{
+	text-decoration: none;
+	color: lightblue;
+	
+}
+
+
